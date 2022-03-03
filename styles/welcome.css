@@ -1,0 +1,269 @@
+/* ------欢迎页 begin------ */
+.wel{
+    position: relative;
+    color:#fff;
+    overflow: hidden;
+    text-align: center;
+    background: url("../images/bg-00.jpg") no-repeat;
+    -webkit-background-size:auto 100%;
+    background-size:auto 100%;
+}
+.wel-main{
+    width:750px;
+    margin:160px auto 0 auto;
+}
+.wel-title{
+    font-size:32px;
+}
+.wel-txt{
+    margin-top:60px;
+    font-size:14px;
+    line-height:28px;
+}
+.wel-line{
+    display: block;
+    width:1px;
+    height:200px;
+    border-left:1px dashed #366e99;
+    margin:36px auto 0 auto;
+}
+.wel-round{
+    position:relative;
+    width:120px;
+    height:120px;
+    margin:36px auto 0 auto;
+    border:2px solid #366e99;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+    cursor: pointer;
+}
+.wel-scale-1,.wel-scale-2,.wel-scale-3{
+    position: absolute;
+    top:-1px;
+    left:-1px;
+    width:100%;
+    height:100%;
+    opacity: 0;
+    -moz-opacity: 0;
+    border:2px solid #366e99;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+    cursor: default;
+}
+.wel-scale-1{
+    -webkit-animation: round-scale-1 infinite 1s linear;
+    animation: round-scale-1 infinite 1s linear;
+}
+.wel-scale-2{
+    -webkit-animation: round-scale-2 infinite 1s linear;
+    animation: round-scale-2 infinite 1s linear;
+}
+.wel-scale-3{
+    -webkit-animation: round-scale-3 infinite 1s linear;
+    animation: round-scale-3 infinite 1s linear;
+}
+@-webkit-keyframes round-scale-1 {
+    0%{
+        -webkit-transform: scale(1.0,1.0);
+        -moz-transform: scale(1.0,1.0);
+        -ms-transform: scale(1.0,1.0);
+        -o-transform: scale(1.0,1.0);
+        transform: scale(1.0,1.0);
+        opacity:0.5;
+        -moz-opacity: 0.5;
+    }
+    100%{
+        -webkit-transform: scale(2.0,2.0);
+        -moz-transform: scale(2.0,2.0);
+        -ms-transform: scale(2.0,2.0);
+        -o-transform: scale(2.0,2.0);
+        transform: scale(2.0,2.0);
+        opacity:0;
+        -moz-opacity: 0;
+    }
+}
+@keyframes round-scale-1 {
+    0%{
+        -webkit-transform: scale(1.0,1.0);
+        -moz-transform: scale(1.0,1.0);
+        -ms-transform: scale(1.0,1.0);
+        -o-transform: scale(1.0,1.0);
+        transform: scale(1.0,1.0);
+        opacity:0.5;
+        -moz-opacity: 0.5;
+    }
+    100%{
+        -webkit-transform: scale(2.0,2.0);
+        -moz-transform: scale(2.0,2.0);
+        -ms-transform: scale(2.0,2.0);
+        -o-transform: scale(2.0,2.0);
+        transform: scale(2.0,2.0);
+        opacity:0;
+        -moz-opacity: 0;
+    }
+}
+@-webkit-keyframes round-scale-2 {
+    0%{
+        -webkit-transform: scale(1.0,1.0);
+        -moz-transform: scale(1.0,1.0);
+        -ms-transform: scale(1.0,1.0);
+        -o-transform: scale(1.0,1.0);
+        transform: scale(1.0,1.0);
+        opacity:0.5;
+        -moz-opacity: 0.5;
+    }
+    100%{
+        -webkit-transform: scale(1.7,1.7);
+        -moz-transform: scale(1.7,1.7);
+        -ms-transform: scale(1.7,1.7);
+        -o-transform: scale(1.7,1.7);
+        transform: scale(1.7,1.7);
+        opacity:0;
+        -moz-opacity: 0;
+    }
+}
+@keyframes round-scale-2 {
+    0%{
+        -webkit-transform: scale(1.0,1.0);
+        -moz-transform: scale(1.0,1.0);
+        -ms-transform: scale(1.0,1.0);
+        -o-transform: scale(1.0,1.0);
+        transform: scale(1.0,1.0);
+        opacity:0.5;
+        -moz-opacity: 0.5;
+    }
+    100%{
+        -webkit-transform: scale(1.7,1.7);
+        -moz-transform: scale(1.7,1.7);
+        -ms-transform: scale(1.7,1.7);
+        -o-transform: scale(1.7,1.7);
+        transform: scale(1.7,1.7);
+        opacity:0;
+        -moz-opacity: 0;
+    }
+}
+@-webkit-keyframes round-scale-3 {
+    0%{
+        -webkit-transform: scale(1.0,1.0);
+        -moz-transform: scale(1.0,1.0);
+        -ms-transform: scale(1.0,1.0);
+        -o-transform: scale(1.0,1.0);
+        transform: scale(1.0,1.0);
+        opacity:0.5;
+        -moz-opacity: 0.5;
+    }
+    100%{
+        -webkit-transform: scale(1.4,1.4);
+        -moz-transform: scale(1.4,1.4);
+        -ms-transform: scale(1.4,1.4);
+        -o-transform: scale(1.4,1.4);
+        transform: scale(1.4,1.4);
+        opacity:0;
+        -moz-opacity: 0;
+    }
+}
+@keyframes round-scale-3 {
+    0%{
+        -webkit-transform: scale(1.0,1.0);
+        -moz-transform: scale(1.0,1.0);
+        -ms-transform: scale(1.0,1.0);
+        -o-transform: scale(1.0,1.0);
+        transform: scale(1.0,1.0);
+        opacity:0.5;
+        -moz-opacity: 0.5;
+    }
+    100%{
+        -webkit-transform: scale(1.4,1.4);
+        -moz-transform: scale(1.4,1.4);
+        -ms-transform: scale(1.4,1.4);
+        -o-transform: scale(1.4,1.4);
+        transform: scale(1.4,1.4);
+        opacity:0;
+        -moz-opacity: 0;
+    }
+}
+
+.wel-link{
+    position: relative;
+    width:100%;
+    color:#4793cc;
+    font-size:0.8rem;
+    line-height:116px;
+}
+@media screen and (min-width: 1367px) and (max-width: 1600px){
+    .wel-main{
+        margin-top:100px;
+    }
+}
+@media screen and (min-width: 1025px) and (max-width: 1366px){
+    .wel-main{
+        margin-top:80px;
+    }
+    .wel-txt{
+        margin-top:30px;
+    }
+    .wel-line{
+        height:140px;
+    }
+}
+/*@media screen and (min-width: 769px) and (max-width: 1024px){*/
+    /*.wel-main{*/
+        /*margin-top:140px;*/
+    /*}*/
+    /*.wel-round{*/
+        /*width:100px;*/
+        /*height:100px;*/
+    /*}*/
+    /*.wel-link{*/
+        /*line-height:96px;*/
+    /*}*/
+/*}*/
+/*@media screen and (min-width: 481px) and (max-width: 768px){*/
+    /*.wel-main{*/
+        /*width:80%;*/
+        /*margin-top:200px;*/
+    /*}*/
+    /*.wel-round{*/
+        /*width:80px;*/
+        /*height:80px;*/
+    /*}*/
+    /*.wel-link{*/
+        /*line-height:76px;*/
+    /*}*/
+/*}*/
+/*@media screen and (max-width: 480px){*/
+    /*.wel-main{*/
+        /*width:80%;*/
+        /*margin-top:100px;*/
+    /*}*/
+    /*.wel-title{*/
+        /*font-size:1rem;*/
+    /*}*/
+    /*.wel-txt{*/
+        /*font-size:0.6rem;*/
+    /*}*/
+    /*.wel-line{*/
+        /*display: none;*/
+    /*}*/
+    /*.wel-round{*/
+        /*width:60px;*/
+        /*height:60px;*/
+    /*}*/
+    /*.wel-link{*/
+        /*line-height:56px;*/
+    /*}*/
+/*}*/
+/* ------欢迎页 end------ */
+
+
+
+
+
+
+
+
+
+
+
